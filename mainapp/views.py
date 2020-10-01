@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 
-
+# method for personal information!
 def home(request):
     if request.method == 'POST':
         #POST goes here . is_ajax is must to capture ajax requests. Beginners pit.
